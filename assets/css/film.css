@@ -1,0 +1,36 @@
+body{
+    background-image: url(../images/textura-fondo.jpg); /*textura de imagen de fondo*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.header__h1--tituloLogo{
+    font-size: 100px;
+    text-transform: uppercase;
+    background-color: #FFCF24;
+    color: #40BC1D;
+    font-family:'Anton', sans-serif;
+    text-align: center;
+}
+.nav{
+    background-color: #FFE790;
+}
+.nav__ul--items li{
+    font-family: 'Tourney', cursive;
+}
+.section1{
+    display:flex;
+    flex-direction: column;
+}
+.section1__videos--tamañoVertical{ /*tamaño instagram vertical*/
+    width: 600px;
+    height: 750px;
+} 
+.section1__videos--tamañoHorizontal{ /*tamaño instagram horizontal*/
+    width: 600px;
+    height: 315px;
+}

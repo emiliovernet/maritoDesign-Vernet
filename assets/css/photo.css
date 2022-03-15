@@ -1,0 +1,76 @@
+body{
+    background-image: url(../images/textura-fondo.jpg); /*textura de imagen de fondo*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+main{
+    display: grid; 
+    grid-template-columns: 33% 33% 33%; 
+    grid-template-rows: auto auto auto; 
+    gap: 10px; 
+    grid-template-areas: 
+        "festijam ceferino eje"
+        "brugers gold eje"
+        ". gold godLevel"; 
+}
+main img{
+    width: 100%;
+    height: 100%;
+}
+.festijam { grid-area: festijam; }
+
+.ceferino { grid-area: ceferino; }
+
+.eje { grid-area: eje; }
+
+.brugers { grid-area: brugers; }
+
+.gold { grid-area:gold; }
+
+.godLevel { grid-area: godLevel; }
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.header__h1--tituloLogo{
+    font-size: 100px;
+    text-transform: uppercase;
+    background-color: #FFCF24;
+    color: #40BC1D;
+    font-family:'Anton', sans-serif;
+    text-align: center;
+}
+nav{
+    background-color: #FFE790;
+}
+.nav__ul--items li{
+    font-family: 'Tourney', cursive;
+}
+footer{ 
+    grid-area: footer; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p{
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .header__h1--tituloLogo{
+        font-size: 70px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        grid-template-columns: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+body{
+    background-image: url(../images/textura-fondo.jpg); /*textura de imagen de fondo*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.header__h1--tituloLogo{
+    font-size: 100px;
+    text-transform: uppercase;
+    background-color: #FFCF24;
+    color: #40BC1D;
+    font-family:'Anton', sans-serif;
+    text-align: center;
+}
+.nav{
+    background-color: #FFE790;
+}
+.nav__ul--items li{
+    font-family: 'Tourney', cursive;
+}
+.section1__form{
+    font-family: 'Tourney', cursive;
+}
+.form__button--boton{
+    font-family: 'Tourney', cursive;
+    background-color: #FFE790;
+    border-radius: 6px;
+}
