@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/textura-fondo.jpg); /*textura de imagen de fondo*/
+    background-image: linear-gradient(to right top, #ffe790, #dedb6d, #b6d14d, #86c731, #40bc1d); /*textura de imagen de fondo*/
     background-attachment: fixed;
     background-size: cover;
 }
@@ -29,4 +29,7 @@ ul{
     font-family: 'Tourney', cursive;
     background-color: #FFE790;
     border-radius: 6px;
+}
+.form__button--boton:hover{
+    background-color: #FFCF24;
 }
